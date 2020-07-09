@@ -2,7 +2,7 @@
 @name          Kotlin Docs Dark Theme
 @namespace     https:://github.com/Lipen
 @description   Originally a copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
-@version       1.1.0
+@version       1.2.0
 @author        Lipen <lipen00@gmail.com> (https:://github.com/Lipen)
 @license       unlicense
 ==/UserStyle== */
@@ -172,6 +172,16 @@
     }
     .dropdown-item:hover {
         background-color: #555555;
+    }
+    /*kto-tabs*/
+    .kto-tabs > .kto-tabs__item:not(.kto-tabs__item_active) {
+        color: #828282;
+    }
+    /* Backgrounds of some specific buttons. */
+    #material:hover,
+    #start:hover,
+    #migrate:hover {
+        background-color: #555 !important;
     }
     /* Mock IDEA theme with Darcula.
     Default theme on kotlinlang.org is IDEA, hence, in order to change it to Darcula without using JavaScript,
