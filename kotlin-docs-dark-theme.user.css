@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name          Kotlin Docs Dark Theme
 @namespace     https:://github.com/Lipen
-@description   Copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
-@version       1.0.1
+@description   Originally a copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
+@version       1.1.0
 @author        Lipen <lipen00@gmail.com> (https:://github.com/Lipen)
 @license       unlicense
 ==/UserStyle== */
@@ -172,5 +172,126 @@
     }
     .dropdown-item:hover {
         background-color: #555555;
+    }
+    /* Mock IDEA theme with Darcula.
+    Default theme on kotlinlang.org is IDEA, hence, in order to change it to Darcula without using JavaScript,
+    I copied the Darcula style (.cm-s-darcula) from the rendered kotlinlang.org page and renamed it to .cm-s-idea.
+    */
+    .cm-s-idea {
+        font-family: Consolas, Menlo, Monaco, 'Lucida Console', 'Liberation Mono', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Courier New', monospace, serif;
+    }
+    .cm-s-idea.CodeMirror {
+        background: #2B2B2B;
+        color: #A9B7C6;
+    }
+    .cm-s-idea span.cm-meta {
+        color: #BBB529;
+    }
+    .cm-s-idea span.cm-number {
+        color: #6897BB;
+    }
+    .cm-s-idea span.cm-keyword {
+        color: #CC7832;
+        line-height: 1em;
+        font-weight: bold;
+    }
+    .cm-s-idea span.cm-def {
+        color: #A9B7C6;
+        font-style: italic;
+    }
+    .cm-s-idea span.cm-variable {
+        color: #A9B7C6;
+    }
+    .cm-s-idea span.cm-variable-2 {
+        color: #A9B7C6;
+    }
+    .cm-s-idea span.cm-variable-3 {
+        color: #9876AA;
+    }
+    .cm-s-idea span.cm-type {
+        color: #AABBCC;
+        font-weight: bold;
+    }
+    .cm-s-idea span.cm-property {
+        color: #FFC66D;
+    }
+    .cm-s-idea span.cm-operator {
+        color: #A9B7C6;
+    }
+    .cm-s-idea span.cm-string {
+        color: #6A8759;
+    }
+    .cm-s-idea span.cm-string-2 {
+        color: #6A8759;
+    }
+    .cm-s-idea span.cm-comment {
+        color: #61A151;
+        font-style: italic;
+    }
+    .cm-s-idea span.cm-link {
+        color: #CC7832;
+    }
+    .cm-s-idea span.cm-atom {
+        color: #CC7832;
+    }
+    .cm-s-idea span.cm-error {
+        color: #BC3F3C;
+    }
+    .cm-s-idea span.cm-tag {
+        color: #629755;
+        font-weight: bold;
+        font-style: italic;
+        text-decoration: underline;
+    }
+    .cm-s-idea span.cm-attribute {
+        color: #6897bb;
+    }
+    .cm-s-idea span.cm-qualifier {
+        color: #6A8759;
+    }
+    .cm-s-idea span.cm-bracket {
+        color: #A9B7C6;
+    }
+    .cm-s-idea span.cm-builtin {
+        color: #FF9E59;
+    }
+    .cm-s-idea span.cm-special {
+        color: #FF9E59;
+    }
+    .cm-s-idea .CodeMirror-cursor {
+        border-left: 1px solid #A9B7C6;
+    }
+    .cm-s-idea .CodeMirror-activeline-background {
+        background: #323232;
+    }
+    .cm-s-idea .CodeMirror-gutters {
+        background: #313335;
+        border-right: 1px solid #313335;
+    }
+    .cm-s-idea .CodeMirror-guttermarker {
+        color: #FFEE80;
+    }
+    .cm-s-idea .CodeMirror-guttermarker-subtle {
+        color: #D0D0D0;
+    }
+    .cm-s-idea .CodeMirrir-linenumber {
+        color: #606366;
+    }
+    .cm-s-idea .CodeMirror-matchingbracket {
+        background-color: #3B514D;
+        color: #FFEF28 !important;
+        font-weight: bold;
+    }
+    .cm-s-idea div.CodeMirror-selected {
+        background: #214283;
+    }
+    .CodeMirror-hints.idea {
+        font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+        color: #9C9E9E;
+        background-color: #3B3E3F !important;
+    }
+    .CodeMirror-hints.idea .CodeMirror-hint-active {
+        background-color: #494D4E !important;
+        color: #9C9E9E !important;
     }
 }
