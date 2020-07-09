@@ -304,4 +304,8 @@
         background-color: #494D4E !important;
         color: #9C9E9E !important;
     }
+    /* Background of expanded code lines */
+    .CodeMirror-linebackground.unmodifiable-line {
+        background-color: #555;
+    }
 }
