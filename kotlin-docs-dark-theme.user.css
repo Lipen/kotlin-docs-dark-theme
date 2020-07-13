@@ -2,7 +2,7 @@
 @name          Kotlin Docs Dark Theme
 @namespace     https:://github.com/Lipen
 @description   Originally a copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
-@version       1.5.0
+@version       1.6.0
 @author        Lipen <lipen00@gmail.com> (https:://github.com/Lipen)
 @license       unlicense
 ==/UserStyle== */
@@ -319,5 +319,38 @@
     }
     .page-content .page-link-to-github:hover .github-icon {
         background-position: -50px 0;
+    }
+    /* Main page */
+    .kto-overview-section {
+        font-family: Inter, Arial, sans-serif;
+        color: #eee;
+        padding-top: 40px;
+    }
+    .kotlin-get-started-section {
+        padding-top: 88px;
+        padding-bottom: 96px;
+        color: #27282c;
+    }
+    .kto-highlights-item__text {
+        font-size: 14px;
+        line-height: 24px;
+        color: #ccc;
+    }
+    .kto-getting-item__description {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 18px;
+        color: #eee;
+    }
+    .kto-socials-list__title {
+        font-size: 18px;
+        line-height: 28px;
+        white-space: nowrap;
+        color: #eee;
+    }
+    .kto-socials-list__description {
+        font-size: 14px;
+        line-height: 24px;
+        color: #ccc;
     }
 }
