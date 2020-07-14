@@ -2,7 +2,7 @@
 @name          Kotlin Docs Dark Theme
 @namespace     https:://github.com/Lipen
 @description   Originally a copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
-@version       1.6.0
+@version       1.7.0
 @author        Lipen <lipen00@gmail.com> (https:://github.com/Lipen)
 @license       unlicense
 ==/UserStyle== */
@@ -352,5 +352,14 @@
         font-size: 14px;
         line-height: 24px;
         color: #ccc;
+    }
+    /* Selected language (Groovy/Kotlin) tab */
+    .multi-language-selector .language-option.selected,
+    .multi-language-selector .os-option.selected {
+        background-color: #333;
+        filter: none;
+        opacity: 1;
+        border: 1px solid #EEE;
+        border-bottom-style: none;
     }
 }
