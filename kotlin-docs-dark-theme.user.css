@@ -2,7 +2,7 @@
 @name          Kotlin Docs Dark Theme
 @namespace     https:://github.com/Lipen
 @description   Originally a copy of UserScript from https://greasyfork.org/en/scripts/394678-kotlin-docs-dark-theme
-@version       1.7.0
+@version       1.8.0
 @author        Lipen <lipen00@gmail.com> (https:://github.com/Lipen)
 @license       unlicense
 ==/UserStyle== */
@@ -108,41 +108,43 @@
         color: #EEE;
     }
     /*code blocks*/
+    /*    
     .page-content .code._highlighted,
     .page-content .code._highlighted span.cm-def,
-    .cm-s-default .cm-def,
+    .cm-s-idea .cm-def,
     .page-content .code._highlighted span.cm-variable,
-    .cm-s-default .cm-variable,
+    .cm-s-idea .cm-variable,
     .page-content .code._highlighted span.cm-variable-2,
-    .cm-s-default .cm-variable-2,
+    .cm-s-idea .cm-variable-2,
     .page-content .code._highlighted span.cm-variable-3,
-    .cm-s-default .cm-variable-3,
+    .cm-s-idea .cm-variable-3,
     .page-content .code._highlighted span.cm-operator,
-    .cm-s-default .cm-operator,
+    .cm-s-idea .cm-operator,
     .page-content .code._highlighted span.cm-property,
-    .cm-s-default .cm-property .page-content .code._highlighted span.cm-qualifier,
+    .cm-s-idea .cm-property .page-content .code._highlighted span.cm-qualifier,
     .page-content .signature {
         color: #A9B7C6;
         background: #2B2B2B;
     }
+    */
     .page-content .code._highlighted span.cm-keyword,
-    .cm-s-default .cm-keyword {
+    .cm-s-idea .cm-keyword {
         color: #CB772F;
     }
     .page-content .code._highlighted span.cm-string,
-    .cm-s-default .cm-string {
+    .cm-s-idea .cm-string {
         color: #A5C25C;
     }
     .page-content .code._highlighted span.cm-comment,
-    .cm-s-default .cm-comment {
+    .cm-s-idea .cm-comment {
         color: #808080;
     }
     .page-content .code._highlighted span.cm-number,
-    .cm-s-default .cm-number {
+    .cm-s-idea .cm-number {
         color: #6897BB;
     }
     .page-content .code._highlighted span.cm-atom,
-    .cm-s-default .cm-atom {
+    .cm-s-idea .cm-atom {
         color: #9876AA;
     }
     .page-content .code._highlighted span.cm-tag {
